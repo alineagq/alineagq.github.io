@@ -4,11 +4,11 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>Hello Bulma!</title>
+  <title>Aline Queiroz - Full-Stack Developer</title>
   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@0.9.4/css/bulma.min.css">
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
   <script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
-  <script type="text/javascript" src="../alineagq.github.io/script.js"></script>
+  <script type="text/javascript" src="/script.js"></script>
 </head>
 
 <body>
@@ -33,7 +33,7 @@
     <div class="hero-body has-background-grey-dark">
       <div class="container has-text-centered">
         <figure class="image is-inline-block pb-6">
-          <img class="is-rounded" src="../alineagq.github.io/static/profile.jpeg">
+          <img class="is-rounded" src="/static/profile.jpeg">
         </figure>
         <p class="title has-text-light">
           Aline Queiroz
@@ -61,12 +61,12 @@
         <div class="container is-justify-content-space-between px-4">
           <figure class="image is-128x128 is-inline-block mx-6">
             <a href="https://easydiet.com.br">
-              <img class="is-square" src="../alineagq.github.io/static/easy_logo.png">
+              <img class="is-square" src="/static/easy_logo.png">
             </a>
           </figure>
           <figure class="image is-128x128 is-inline-block mx-6">
             <a href="http://www.colabeduc.org/projeto/show/986">
-              <img class="is-square" src="../alineagq.github.io/static/colabeduc-logo.png">
+              <img class="is-square" src="/static/colabeduc-logo.png">
             </a>
           </figure>
         </div>
@@ -77,45 +77,45 @@
         </p>
         <div class="container pb-3">
           <figure class="image is-96x96 is-inline-block pb-6" alt="HTML">
-            <img src="../alineagq.github.io/static/html-5.png">
+            <img src="/static/html-5.png">
             <figcaption>HTML5</figcaption>
           </figure>
           <figure class="image is-inline-block pb-6 is-96x96">
-            <img src="../alineagq.github.io/static/css-3.png">
+            <img src="/static/css-3.png">
             <figcaption>CSS3</figcaption>
           </figure>
           <figure class="image is-inline-block pb-6 is-96x96">
-            <img src="../alineagq.github.io/static/javascript.png">
+            <img src="/static/javascript.png">
             <figcaption>Javascript</figcaption>
           </figure>
           <figure class="image is-inline-block pb-6 is-96x96">
-            <img src="../alineagq.github.io/static/bootstrap.png">
+            <img src="/static/bootstrap.png">
             <figcaption>Bootstrap</figcaption>
           </figure>
           <figure class="image is-inline-block pb-6 is-96x96">
-            <img src="../alineagq.github.io/static/bulma.png">
+            <img src="/static/bulma.png">
             <figcaption>Bulma</figcaption>
           </figure>
         </div>
         <div class="container">
           <figure class="image is-inline-block pb-6 is-96x96">
-            <img src="../alineagq.github.io/static/postgresql.png">
+            <img src="/static/postgresql.png">
             <figcaption>PostgreSQL</figcaption>
           </figure>
           <figure class="image is-inline-block pb-6 is-96x96">
-            <img src="../alineagq.github.io/static/python.png">
+            <img src="/static/python.png">
             <figcaption>Python</figcaption>
           </figure>
           <figure class="image is-inline-block pb-6 is-96x96">
-            <img src="../alineagq.github.io/static/git.png">
+            <img src="/static/git.png">
             <figcaption>Git</figcaption>
           </figure>
           <figure class="image is-96x96 is-inline-block pb-6">
-            <img src="../alineagq.github.io/static/react.png">
+            <img src="/static/react.png">
             <figcaption>React</figcaption>
           </figure>
           <figure class="image is-inline-block pb-6 is-96x96">
-            <img src="../alineagq.github.io/static/flutter.png">
+            <img src="/static/flutter.png">
             <figcaption>Flutter</figcaption>
           </figure>
         </div>
@@ -157,13 +157,51 @@
               @alineagq
             </a>
           </p>
-          <p class="subtitle has-text-justified px-3">
+          <p class="subtitle has-text-justified px-3 js-modal-trigger" data-target="modal-js-example">
             <span class="icon">
               <i class="fa fa-envelope-o"></i>
             </span>
             alinequeirozagq@gmail.com
           </p>
         </div>
+      </div>
+      <div id="modal-js-example" class="modal">
+        <div class="modal-background"></div>
+      
+        <div class="modal-content">
+          <div class="box">
+            <div class="container my-5 mt-5 mx-5 px-5">
+              <h2 class="title is-2 is-capitalized">Contact Us</h2>
+              <form action="mailto:alinequeirozagq@gmail.com" method="post">
+                  <div class="field">
+                      <label for="name" class="label is-size-4 has-text-weight-light"></label>
+                      <div class="control has-icons-left">
+                          <input type="text" name="name" id="name" class="input" placeholder="Name" autofocus>
+                              <span class="icon is-left">
+                                  <i class="fa fa-user"></i>
+                              </span>
+                      </div>
+                  </div>
+                  <div class="field">
+                      <label for="email" class="label is-size-4 has-text-weight-light"></label>
+                      <div class="control has-icons-left">
+                          <input type="email" name="email" id="email" class="input" placeholder="Email">
+                              <span class="icon is-left">
+                                  <i class="fa fa-envelope"></i>
+                              </span>
+                      </div>
+                  </div>
+                  <div class="field">
+                      <label for="message" class="label is-size-4 has-text-weight-light"></label>
+                      <textarea name="message" id="message" rows="5" class="textarea is-medium" placeholder="Message"></textarea>
+                  </div>
+                  <button type="submit" class="button is-success is-size-5">Submit</button>
+              </form>
+          </div>
+          </div>
+        </div>
+      
+        <button class="modal-close is-large" aria-label="close"></button>
       </div>
     </div>
   
