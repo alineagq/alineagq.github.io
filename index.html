@@ -1,1 +1,174 @@
-Hello World
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Hello Bulma!</title>
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@0.9.4/css/bulma.min.css">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+  <script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
+  <script type="text/javascript" src="../alineagq.github.io/script.js"></script>
+</head>
+
+<body>
+  <section class="hero is-fullheight">
+    <!-- Hero head: will stick at the top -->
+    <div class="hero-head has-background-black-bis">
+      <header>
+        <nav class="tabs is-boxed is-centered">
+          <div class="container">
+            <ul>
+              <li id="tab-1" ><a class="has-text-light">About me</a></li>
+              <li id="tab-2"><a class="has-text-light">Projects</a></li>
+              <li id="tab-3"><a class="has-text-light">Skills</a></li>
+              <li id="tab-4"><a class="has-text-light">Social</a></li>
+            </ul>
+          </div>
+        </nav>
+      </header>
+    </div>
+  
+    <!-- Hero content: will be in the middle -->
+    <div class="hero-body has-background-grey-dark">
+      <div class="container has-text-centered">
+        <figure class="image is-inline-block pb-6">
+          <img class="is-rounded" src="../alineagq.github.io/static/profile.jpeg">
+        </figure>
+        <p class="title has-text-light">
+          Aline Queiroz
+        </p>
+        <p class="subtitle has-text-light">
+          Programmer, Biomedic, Neuroscientist, Gamer and Coffee Lover.
+        </p>
+      </div>
+      <div id="tab-1-info" class="container card has-text-centered px-4 pb-5 pt-3 is-hidden">
+        <p class="title is-spaced">
+          About me
+        </p>
+        <p class="subtitle has-text-justified px-3">
+          Full-Stack developer since 2018, I am currently doing an internship at a startup incubator, 
+          where I provide services for a nutritional consulting company. I am a Biomedicine student at 
+          Faculdade Estácio de Sá and a Neuroscience student at the Federal University of Rio Grande do Norte.
+          During my free time I like to play games (FPS or RPG), read books (non-fiction), listen to music 
+          (rap, hip-hop, rock) and whenever I have more time I travel.
+        </p>
+      </div>
+      <div id="tab-2-info" class="container card has-text-centered px-4 pb-3 pt-3 is-hidden">
+        <p class="title is-spaced pb-4">
+          Projects
+        </p>
+        <div class="container is-justify-content-space-between px-4">
+          <figure class="image is-128x128 is-inline-block mx-6">
+            <a href="https://easydiet.com.br">
+              <img class="is-square" src="../alineagq.github.io/static/easy_logo.png">
+            </a>
+          </figure>
+          <figure class="image is-128x128 is-inline-block mx-6">
+            <a href="http://www.colabeduc.org/projeto/show/986">
+              <img class="is-square" src="../alineagq.github.io/static/colabeduc-logo.png">
+            </a>
+          </figure>
+        </div>
+      </div>
+      <div  id="tab-3-info" class="container card has-text-centered px-4 pb-6 pt-3 is-hidden">
+        <p class="title is-spaced pb-4">
+          Skills
+        </p>
+        <div class="container pb-3">
+          <figure class="image is-96x96 is-inline-block pb-6" alt="HTML">
+            <img src="../alineagq.github.io/static/html-5.png">
+            <figcaption>HTML5</figcaption>
+          </figure>
+          <figure class="image is-inline-block pb-6 is-96x96">
+            <img src="../alineagq.github.io/static/css-3.png">
+            <figcaption>CSS3</figcaption>
+          </figure>
+          <figure class="image is-inline-block pb-6 is-96x96">
+            <img src="../alineagq.github.io/static/javascript.png">
+            <figcaption>Javascript</figcaption>
+          </figure>
+          <figure class="image is-inline-block pb-6 is-96x96">
+            <img src="../alineagq.github.io/static/bootstrap.png">
+            <figcaption>Bootstrap</figcaption>
+          </figure>
+          <figure class="image is-inline-block pb-6 is-96x96">
+            <img src="../alineagq.github.io/static/bulma.png">
+            <figcaption>Bulma</figcaption>
+          </figure>
+        </div>
+        <div class="container">
+          <figure class="image is-inline-block pb-6 is-96x96">
+            <img src="../alineagq.github.io/static/postgresql.png">
+            <figcaption>PostgreSQL</figcaption>
+          </figure>
+          <figure class="image is-inline-block pb-6 is-96x96">
+            <img src="../alineagq.github.io/static/python.png">
+            <figcaption>Python</figcaption>
+          </figure>
+          <figure class="image is-inline-block pb-6 is-96x96">
+            <img src="../alineagq.github.io/static/git.png">
+            <figcaption>Git</figcaption>
+          </figure>
+          <figure class="image is-96x96 is-inline-block pb-6">
+            <img src="../alineagq.github.io/static/react.png">
+            <figcaption>React</figcaption>
+          </figure>
+          <figure class="image is-inline-block pb-6 is-96x96">
+            <img src="../alineagq.github.io/static/flutter.png">
+            <figcaption>Flutter</figcaption>
+          </figure>
+        </div>
+      </div>
+      <div id="tab-4-info" class="container card has-text-centered px-4 pb-5 pt-3 is-hidden">
+        <p class="title is-spaced">
+          Social
+        </p>
+        <div class="px-6 pb-4">
+          <p class="subtitle has-text-justified px-3">
+            <a href="https://www.linkedin.com/in/alineagq" class="has-text-dark">
+              <span class="icon">
+                <i class="fa fa-linkedin"></i> 
+              </span>
+              @alineagq
+            </a>
+          </p>
+          <p class="subtitle has-text-justified px-3">
+            <a href="https://www.instagram.com/alineagq" class="has-text-dark">
+              <span class="icon">
+                <i class="fa fa-instagram"></i> 
+              </span>
+              @alineagq
+            </a>
+          </p>
+          <p class="subtitle has-text-justified px-3">
+            <a href="https://www.github.com/alineagq" class="has-text-dark">
+              <span class="icon">
+                <i class="fa fa-github"></i> 
+              </span>
+              @alineagq
+            </a>
+          </p>
+          <p class="subtitle has-text-justified px-3">
+            <a href="https://www.gitlab.com/alineagq" class="has-text-dark">
+              <span class="icon">
+                <i class="fa fa-gitlab"></i> 
+              </span>
+              @alineagq
+            </a>
+          </p>
+          <p class="subtitle has-text-justified px-3">
+            <span class="icon">
+              <i class="fa fa-envelope-o"></i>
+            </span>
+            alinequeirozagq@gmail.com
+          </p>
+        </div>
+      </div>
+    </div>
+  
+  </section>
+
+</body>
+
+</html>
